@@ -1,0 +1,24 @@
+#test:
+#  login_data1:
+#    name: zdc
+#    pwd: ~
+#  login_data2:
+#    name: zdc2
+#    pwd: 4567
+#  login_data3:
+#    name: zdc3
+#    pwd: 4568
+host:
+  locthost: &lh
+    host: 127.0.0.1
+  user:
+    <<: *lh
+    db: 8
+
+  book:
+    <<: *lh
+    db: 9
+
+  comment:
+    <<: *lh
+    db: 10

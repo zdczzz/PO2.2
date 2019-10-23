@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-CCMKDR5K",
+    "children" : [ {
+      "name" : "12572-MainThread",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "c9db884339cbe782",
+        "parentUid" : "580fd8f1325930520cfcf027ffe37a9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571807657914,
+          "stop" : 1571807657915,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "580fd8f1325930520cfcf027ffe37a9c"
+    } ],
+    "uid" : "59ca963e98b7c7014a18a50bf427c529"
+  } ]
+}
