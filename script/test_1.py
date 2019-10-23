@@ -3,7 +3,7 @@ class Test_a():
     @allure.step(title='NO.1')
     @allure.severity(allure.severity_level.BLOCKER)
     def test_1(self):
-        allure.attach('aaaaa','bbbbb')
+        allure.attach('aaaaa','123')
         assert 1
 
 
