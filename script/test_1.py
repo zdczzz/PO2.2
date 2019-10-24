@@ -5,7 +5,9 @@ class Test_a():
     def test_1(self):
         allure.attach('aaaaa','55555')
         assert 0
-
+    def test_2(self):
+        allure.attach('aaaaa','55555')
+        assert 1
 
 
 if __name__ == '__main__':
