@@ -4,7 +4,7 @@ class Test_a():
     @allure.severity(allure.severity_level.BLOCKER)
     def test_1(self):
         allure.attach('aaaaa','55555')
-        assert 1
+        assert 0
 
 
 
